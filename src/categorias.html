@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías | Explora Nuestros Productos</title>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">GLOW</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="categorias.html" class="active">Categorías</a>
+            <a href="tutoriales.html">Tutoriales</a>
+            <a href="registro.html" class="btn-registro-nav">Registro</a>
+        </nav>
+    </header>
+
+    <main class="contenedor-categorias">
+        <aside class="sidebar-filtros">
+            <ul style="margin-bottom: 1.5rem;">
+                <li><a href="#" data-categoria="todos" class="filtro-btn active-filtro">Todo</a></li>
+                <li><a href="#" data-categoria="rostro" class="filtro-btn">Rostro</a></li>
+                <li><a href="#" data-categoria="ojos" class="filtro-btn">Ojos</a></li>
+                <li><a href="#" data-categoria="labios" class="filtro-btn">Labios</a></li>
+            </ul>
+        </aside>
+
+        <section style="flex: 1;">
+            <div class="grid-productos">
+                <article class="card-producto" data-item="rostro">
+                    <img src="imagenes/polvos compactos.jpg" alt="Polvos Traslúcidos">
+                    <h3>Polvos Traslúcidos</h3>
+                    <p>Elimina brillos con un sellado sedoso.</p>
+                </article>
+                <article class="card-producto" data-item="ojos">
+                    <img src="imagenes/mascara de pestañas.jpg" alt="Máscaras de Pestañas">
+                    <h3>Máscaras de Pestañas</h3>
+                    <p>Volumen extremo e impermeabilidad total.</p>
+                </article>
+                <article class="card-producto" data-item="rostro">
+                    <img src="imagenes/base alta cobertura.png" alt="Bases Hidratantes">
+                    <h3>Bases Hidratantes</h3>
+                    <p>Acabado natural para todo tipo de piel.</p>
+                </article>
+                <article class="card-producto" data-item="labios">
+                    <img src="imagenes/labial liquido.png" alt="Labiales Velvet">
+                    <h3>Labiales Velvet</h3>
+                    <p>Larga duración sin resecar tus labios.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 GLOW Elegance.</p>
+    </footer>
+
+</body>
+</html>
